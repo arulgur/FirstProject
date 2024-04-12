@@ -9,10 +9,10 @@ function App() {
       throw new Error("Danger Zone");
     }
   } catch (e) {
+    //console.log
     console.log(e);
   }
 
-  
   return (
     <div className="App">
       <h3>{value}</h3>
